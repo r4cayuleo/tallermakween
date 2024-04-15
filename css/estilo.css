@@ -1,0 +1,23 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.795); /* Color de fondo de los íconos */
+  width: 40px; /* Ancho */
+  height: 40px; /* Alto */
+  border-radius: 10px;
+}
+
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+  color: white;
+  font-size: 24px;
+}
+
+/* Estilo para los enlaces de navegación */
+.navbar-nav .nav-link {
+    color: white;
+}
+
+/* Cambiar color al pasar el mouse por encima */
+.navbar-nav .nav-link:hover {
+    color: #ffffff80;
+}
